@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
+  },
+  "name": "template-bootstrap",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html  --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cssnano": "^5.1.7",
+    "postcss": "^8.4.12",
+    "sass": "^1.50.1"
+  }
+}
